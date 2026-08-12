@@ -214,5 +214,29 @@ marimo/_static/
 marimo/_lsp/
 __marimo__/
 
-# Streamlit
 .streamlit/secrets.toml
+
+.venv/
+venv/
+ENV/
+env/
+
+__pycache__/
+*.py[cod]
+*$py.class
+
+.ipynb_checkpoints/
+
+.env
+.env.*
+!.env.example
+
+.vscode/
+.idea/
+.DS_Store
+*.swp
+
+*.log
+metastore_db/
+derby.log
+spark-warehouse/

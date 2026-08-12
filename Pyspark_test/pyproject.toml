@@ -1,0 +1,20 @@
+[project]
+name = "pyspark-test"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "domInIk0x0", email = "dominikpietrzak123p@gmail.com" }
+]
+requires-python = ">=3.10"
+dependencies = [
+    "ipykernel>=7.3.0",
+    "pyspark>=4.2.0",
+]
+
+[project.scripts]
+pyspark-test = "pyspark_test:main"
+
+[build-system]
+requires = ["uv_build>=0.12.1,<0.13.0"]
+build-backend = "uv_build"
